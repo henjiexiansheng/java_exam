@@ -1,0 +1,18 @@
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
+public class MyTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		List<Student> stu = new ArrayList<Student>();
+		stu.add(new Small("张三",23));
+		stu.add(new Middle("李四",23));
+		stu.add(new Degree("王五",23));
+		stu.add(new Graduate("田六",23));
+		stu.add(new Degree("李静",23));
+
+	}
+
+}
